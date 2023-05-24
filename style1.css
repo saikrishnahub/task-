@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(nature.jpg);
+    background-size: cover;
+    background-position:center;
+    font-family: sans-serif;
+    background-repeat:no-repeat;
+    
+}
+.login-box{
+    width: 320px;
+    height: 520px;
+    background-color:#FF55BB ;
+    border-style:ridge solid;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position:absolute ;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.logpage{
+  width: 100px;
+  height: 100px;  
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 50px);
+
+}
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 40px;
+
+}
+.logpage{
+    margin:0;
+    padding: 0;
+    font-weight: bold ;
+    position: absolute;
+    bottom: 100px;    
+}
+.login-box input{
+    width:100% ;
+    margin-bottom: 20px;
+    color:#0A4D68;
+}
+.login-box input["text"], input[type="password"]{
+    border:none;
+    border-bottom:5px solid #fff;
+    background:#D14D72;
+    outline:none;
+    height:40px;
+    color:FDE2F3;
+
+
+    
+    
+}
+
